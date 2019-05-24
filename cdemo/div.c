@@ -1,14 +1,19 @@
 #include <stdio.h>
 
-int main()
+int main() 
 {
-	int a = 0;
-
-	while (a < 5);
-	{
-		printf("a is equal to %d\n", a);
-		a++;
+	for (int i = 0; i < 100; i++)
+		if (i % 2)
+		{
+		printf("%d is odd\n", i);
+		}
+		else 
+		{
+		printf("%d is even\n", i);
+	if (i = 0)
+	{ 
+	printf("%d is zero\n", i);
 	}
-	printf("done - a is equal to %d/n", a);
 }
+
 
