@@ -15,6 +15,6 @@ int main()
 
 	*ptrtoa = 5;
 
-	printf("a=%d, b=%d/n" a, b);
+	printf("a=%d, b=%d/n", a, b);
   printf("Sum of %d and %d is %d\n", a, b, c);
 }
