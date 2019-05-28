@@ -15,6 +15,9 @@ int main()
         for (int i = 0; i < 100; i++) {
                 arr[i] = i * i;
         }
-
-	arrayAdd(arr, 100, 2);
+  int s = 100;
+  int n = 3;
+	arrayAdd(arr, s, n);
 }
+
+
