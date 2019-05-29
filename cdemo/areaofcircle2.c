@@ -12,7 +12,7 @@ float BottomRadius(){
   int check = 0;
 
   while (check == 0) {
-    printf("Enter the lower bound for the radiuses: \n");
+    printf("Enter the lower value for the range of radiuses: \n");
     fgets(input, 256, stdin);
     check = sscanf(input, "%f", &rBot);
 
@@ -29,7 +29,7 @@ float TopRadius(){
   int check = 0;
 
   while (check == 0) {
-    printf("Enter the upper bound for the radiuses: \n");
+    printf("Enter the upper value for the range of radiuses: \n");
     fgets(input, 256, stdin);
     check = sscanf(input, "%f", &rTop);
 
